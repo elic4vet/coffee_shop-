@@ -82,5 +82,10 @@ button:focus-visible {
   height: 450px;
   object-fit: cover;
   object-position: center;
- 
+
+}
+
+img {
+  max-width: 1440px;
+
 }
