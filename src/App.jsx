@@ -5,6 +5,7 @@ import About from './components/pages/about/about';
 import Services from './components/pages/services/service';
 import Pricing from './components/pages/pricing/pricing';
 import Contact from './components/pages/contact/contact';
+import Home from './components/pages/home/home';  
 import './App.css'
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" element={<div>Home</div>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/pricing" element={<Pricing />} />

@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'flowbite';
-import logo from '../../assets/le café d’élise.png';
+import logo from '../../assets/coffee.png';
 
 const nav2 = () => {
   return (
     <div>
       <nav className="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 left-0 w-full z-50">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
           <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src={logo} className="h-8" alt="Logo" />
+            <img src={logo} className="h-15" alt="Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap pr-25 dark:text-white"></span>
           </Link>
           <button
