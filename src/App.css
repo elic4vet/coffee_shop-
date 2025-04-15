@@ -49,3 +49,7 @@
 body {
   padding-top: 64px; /* Adjust based on the height of your navbar */
 }
+
+.navbar {
+  overflow: auto;
+}
